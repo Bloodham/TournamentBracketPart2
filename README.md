@@ -1,3 +1,3 @@
-# COMP2068-MongoDemo
+The final project of Advanced Web.
 
-An AngularJS MongoDB Demo Project for COMP2068 @ Georgian College
+This tournament site is being built by The New Order.
