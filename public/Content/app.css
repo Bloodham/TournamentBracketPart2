@@ -1,9 +1,7 @@
 /* custom style sheet */
-
-
-.completed-true {
-  text-decoration: line-through;
-  color: grey;
+html,body{
+    background: #051821;
+    color: #09C5E0;
 }
 
 #searchTodo, #newTodo {
@@ -12,4 +10,32 @@
     border: 2px solid grey;
     padding: 5px;
     margin: 5px 0 5px 0;
+}
+
+#upcoming_tournaments{
+    float: left;
+}
+
+#home_content{
+    float: left;
+}
+
+#active_tournaments{
+    float: left;
+}
+.navbar-custom {
+background-color:#682EFF;
+color:#ffffff;
+border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+color: #ffffff;
+background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+color:#eeeeee;
 }
